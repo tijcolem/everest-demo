@@ -1,3 +1,4 @@
+#This is mine
 networks:
   default:
     name: maeve-csms
@@ -67,7 +68,8 @@ services:
     user: "${UID}:${GID}"
 
   manager:
-    image: ghcr.io/everest/everest-demo/maeve-manager:2025.3.0-with-dt
+    #image: ghcr.io/everest/everest-demo/maeve-manager:2025.3.0-with-dt
+    image:  tijcolem/everest-demo:maeve-csms-manager-0.0.23-q
     build:
       context: manager
     depends_on:
