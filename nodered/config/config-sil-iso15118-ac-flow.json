@@ -3606,7 +3606,7 @@
         "method": "POST",
         "ret": "txt",
         "paytoqs": "ignore",
-        "url": "http://host.docker.internal:9410/api/v0/cs/cp001/setchargingprofile",
+        "url": "http://csms:9410/api/v0/cs/cp001/setchargingprofile",
         "tls": "",
         "persist": false,
         "proxy": "",
